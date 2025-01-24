@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            display:grid;
+            grid-template-columns: 2cm 3cm 3cm 3cm 3cm 3cm 3cm;
+            grid-template-rows: 1.5cm 1.5cm 1.5cm 5cm 1.5cm;
+            gap:2px;
+        }
+        .d1{
+            background-color: green;
+            color: black;
+            align-content: center;
+            grid-row-start: 1;
+            grid-row-end: 4;
+            border:2px solid black;
+            text-align: center;
+        }
+        .d2{
+            align-content: center;
+            text-align: center;
+            grid-column-start: 2;
+            grid-column-end: 6;
+            border: 2px solid black;
+            
+        }
+        .d3{
+            grid-column: 2/5;
+            border: 2px solid black;
+            align-content: center;
+            text-align: center;
+        }
+        .d4{
+            grid-column: 2/3;
+            border: 2px solid black;
+            align-content: center;
+            text-align: center;
+        }
+        .d5{
+            grid-column: 3/4;
+            border: 2px solid black;
+            align-content: center;
+            text-align: center;
+        }
+        .d6{
+            grid-column: 4/5;
+            border: 2px solid black;
+            align-content: center;
+            text-align: center;
+        }
+        .d7{
+            grid-column: 5/6;
+            border: 2px solid black;
+            align-content: center;
+            text-align: center;
+        }
+        .d8{
+            grid-column: 6/7;
+            border: 2px solid black;
+            align-content: center;
+            text-align: center;
+        }
+        .d9{
+            grid-column: 7/8;
+            border: 2px solid black;
+            align-content: center;
+            text-align: center;
+        }
+        .d10{
+            grid-row: 4/5;
+            align-content: center;
+            text-align: center;
+            border: 2px solid black;
+        }
+        .d11{
+            grid-column: 2/8;
+            align-content: center;
+            text-align: center;
+            border: 2px solid black;
+        }
+        .d12{
+            align-content: center;
+            text-align: center;
+            border: 2px solid black;
+            grid-column: 2/8;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="d1">Logo</div>
+        <div class="d2">2</div>
+        <div class="d3">2l</div>
+        <div class="d4">3</div>
+        <div class="d5">4</div>
+        <div class="d6">5</div>
+        <div class="d7">6</div>
+        <div class="d8">7</div>
+        <div class="d9">8</div>
+        <div class="d10">Navigation</div>
+        <div class="d11">Content</div>
+        <div class="d12">Footer</div>
+    </div>
+</body>
+</html>
